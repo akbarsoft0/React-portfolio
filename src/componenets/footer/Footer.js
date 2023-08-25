@@ -5,9 +5,10 @@ const Footer = () => {
     return (
         <footer>
             <div className="container">
-                <h6>&copy;made by mohammad akbar</h6>
+                <a href="https://mohammad-akbar.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    &copy; made by mohammad akbar</a>
             </div>
-        </footer>
+        </footer >
     )
 }
 

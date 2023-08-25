@@ -1,27 +1,25 @@
-input,
+.contact-info .row {
+    min-height: 60vh;
+    padding: 2rem;
+    align-items: center;
+}
+
+.contact-text h4 {
+    padding: 2rem 0;
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+
+form input,
 textarea {
+    width: 100%;
     display: block;
     padding: 1rem;
-    width: 100%;
-    margin-bottom: 0.5rem;
+    margin-bottom: 5px;
     border-radius: 6px;
     text-transform: capitalize;
-    border: 1px solid #000;
 }
 
-.myBtn {
-    text-decoration: none;
-    border: none;
-    padding: 0.6rem 2rem;
-    text-transform: uppercase;
-    border-radius: 6px;
-    background: var(--btnBg) var(--x, 0)/200%;
-    color: #fff;
+form button {
     float: right;
-}
-
-.myBtn:hover {
-    --x: 100%;
-    color: #ffffff !important;
-    transition: 0.5s
 }

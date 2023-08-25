@@ -10,15 +10,15 @@
     width: 60%;
     display: block;
     margin-left: auto;
-    mix-blend-mode: multiply;
+    /* mix-blend-mode: multiply; */
 }
 
 .work-info h3 {
-    color: var(--color2);
+    color: var(--bg1);
 }
 
 .work-info h5 {
-    color: var(--color);
+    color: var(--bg2);
     margin: 1rem 0;
 }
 

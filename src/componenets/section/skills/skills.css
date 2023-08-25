@@ -3,5 +3,6 @@
 }
 
 .skill-type {
-    color: var(--color);
+    color: var(--bg1);
+    text-transform: uppercase;
 }

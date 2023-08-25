@@ -3,6 +3,7 @@ import './Projects.css'
 import { ProjectsData } from '../../data/ProjectsData'
 import ProjectsCard from './ProjectsCard'
 import Sepretor from '../../commen/Sepretor'
+
 const Projects = () => {
     const data = ProjectsData
     return (

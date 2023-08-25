@@ -1,16 +1,19 @@
 .s-container {
     display: flex;
-    justify-content: center;
+    margin-bottom: 2rem;
 }
 
 .s-div {
-    padding: 1rem;
-    margin: 1rem;
-    filter: opacity(0.5);
+    width: 50px;
+    margin-right: auto;
+}
+
+.s-div img {
+    filter: hue-rotate(68deg);
 }
 
 .s-div:hover {
-    filter: drop-shadow(2px 4px 6px black);
+    filter: drop-shadow(2px 4px 6px #fff);
 }
 
 @media only screen and (max-width:600px) {

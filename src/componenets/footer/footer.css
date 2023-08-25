@@ -2,6 +2,11 @@ footer {
     position: absolute;
     inset: auto 0 0 0;
     background-color: #000;
-    color: aliceblue;
     padding: 0.5rem;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
 }

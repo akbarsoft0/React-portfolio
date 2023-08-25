@@ -13,16 +13,16 @@
 
 /* about */
 .project-info p {
-    font-weight: 600;
+    text-transform: capitalize;
+    font-size: medium;
 }
 
 /* links */
-.project-info .p-btn,
-.project-info span {
+.tag {
     display: inline-block;
     margin: 1rem 1rem 1rem 0;
     padding: 0.5rem 1rem;
-    background-color: var(--color);
+    background: var(--bg1) !important;
     color: #fff;
     text-transform: capitalize;
     text-decoration: none;
@@ -40,8 +40,13 @@
     transform: scale(1);
 }
 
+.project-info h3 {
+    color: var(--bg1);
+    text-transform: uppercase;
+}
+
 /* tags */
 .project-info span {
     text-transform: uppercase;
-    background-color: var(--color2);
+    background-color: var(--bg2);
 }

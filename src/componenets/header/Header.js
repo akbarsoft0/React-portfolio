@@ -9,10 +9,8 @@ const Header = () => {
     return (
         <header>
             <div className="container">
-                <div className="nav">
-
-                    <h1> <NavLink to="/">Mohammad Akbar</NavLink></h1>
-
+                <div className="mynav">
+                    <h2><NavLink to="/">Mohammad Akbar</NavLink></h2>
                     <div className="menu">
                         <i className="fi fi-rs-apps apps" onClick={() => setisOpen(!isOpen)}></i>
                         <Web />
@@ -20,8 +18,7 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-
-        </header>
+        </header >
     )
 }
 

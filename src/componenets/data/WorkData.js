@@ -5,7 +5,7 @@ export const WorkData = [
         designation: 'FRONT-END WEB DEVELOPER',
         dateJoining: "AUG'22",
         dateEnding: 'PRESENT',
-        companyLogo: 'https://media.licdn.com/dms/image/C4E0BAQE9ELTWj0aq7A/company-logo_200_200/0/1519911690900?e=1699488000&v=beta&t=cYI-sRUUHV0llYcQbMDwOm9F1f_H46v_Pv0iqnSt-s4',
+        companyLogo: 'https://i.postimg.cc/Gmp8vRJR/1519911690900-removebg-preview.png',
         work: `Design and develop responsive websites using HTML, CSS, and JavaScript, ensuring cross-browser compatibility and accessibility.
             Collaborate with UX / UI designers to create interactive user interfaces that enhance the user experience and increase engagement.
             Optimize website loading time by 30% through implementing performance optimization techniques such as image compression and lazy loading.

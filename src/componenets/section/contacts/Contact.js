@@ -9,11 +9,11 @@ const Contact = () => {
         <section id='contact'>
             <div className="container">
                 <Sepretor />
-                <h2>contact</h2>
+                <h2 className='page-title'>contact</h2>
                 <div className="contact-info">
                     <div className="row">
                         <div className="col-lg-6">
-                            <div className="c-left">
+                            <div className="contact-text">
                                 <a className='myBtn' href={require('../../assets/resume/resume-white.pdf')} download={'Akbar resume'}>
                                     <i className="fi fi-ss-down-to-line"></i> download my resume</a>
                                 <h4>want to get in touch? <br /> contact me on any platform</h4>
@@ -30,7 +30,6 @@ const Contact = () => {
                             </form>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section >
