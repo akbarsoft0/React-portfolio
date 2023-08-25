@@ -1,0 +1,24 @@
+.nav {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 1rem;
+}
+
+.web-menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+    padding: 0 1rem;
+    text-transform: capitalize;
+}
+
+.apps {
+    display: none;
+}

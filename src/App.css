@@ -1,0 +1,32 @@
+@import "~@flaticon/flaticon-uicons/css/all/all";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #94A9C9;
+  /* background-color: #0F172A; */
+  font-family: "Noto Sans", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-style: normal;
+  font-weight: 400;
+  position: relative;
+}
+
+section {
+  padding: 8rem 0;
+}
+
+:root {
+  --color: #92e3a9;
+  --color2: #19d3cd;
+  --btnBg: linear-gradient(90deg, rgb(14, 165, 234), rgb(11, 209, 209) 51%, rgb(14, 165, 234));
+}
+
+img {
+  width: 100%;
+}

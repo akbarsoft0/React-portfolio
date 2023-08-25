@@ -1,0 +1,20 @@
+.s-container {
+    display: flex;
+    justify-content: center;
+}
+
+.s-div {
+    padding: 1rem;
+    margin: 1rem;
+    filter: opacity(0.5);
+}
+
+.s-div:hover {
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+@media only screen and (max-width:600px) {
+    .s-div {
+        padding: 0;
+    }
+}

@@ -1,0 +1,33 @@
+.work-card {
+    padding: 4rem 1rem;
+}
+
+.work-card:not(:last-child) {
+    border-bottom: 1px solid #000;
+}
+
+.work-img img {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    mix-blend-mode: multiply;
+}
+
+.work-info h3 {
+    color: var(--color2);
+}
+
+.work-info h5 {
+    color: var(--color);
+    margin: 1rem 0;
+}
+
+.work-info p {
+    font-weight: 600;
+}
+
+@media only screen and (max-width:920px) {
+    .work-img img {
+        margin: auto;
+    }
+}

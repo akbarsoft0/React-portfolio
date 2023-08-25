@@ -1,0 +1,8 @@
+.sepretor {
+    width: 40%;
+    height: 10px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    background: rgb(5, 255, 80);
+    background: var(--btnBg);
+}

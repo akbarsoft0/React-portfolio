@@ -1,0 +1,33 @@
+.left {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    text-transform: capitalize;
+    color: #000;
+}
+
+.left h2 {
+    font-size: 3rem;
+    padding: 2rem;
+}
+
+.left span {
+    color: var(--color);
+}
+
+.right {
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+@media only screen and (max-width:920px) {
+    .left h2 {
+        font-size: 2rem;
+    }
+
+    .right {
+        padding: 3rem;
+    }
+}

@@ -1,0 +1,27 @@
+input,
+textarea {
+    display: block;
+    padding: 1rem;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    border-radius: 6px;
+    text-transform: capitalize;
+    border: 1px solid #000;
+}
+
+.myBtn {
+    text-decoration: none;
+    border: none;
+    padding: 0.6rem 2rem;
+    text-transform: uppercase;
+    border-radius: 6px;
+    background: var(--btnBg) var(--x, 0)/200%;
+    color: #fff;
+    float: right;
+}
+
+.myBtn:hover {
+    --x: 100%;
+    color: #ffffff !important;
+    transition: 0.5s
+}

@@ -1,0 +1,47 @@
+.project-info {
+    padding: 4rem 1rem;
+}
+
+.project-info:not(:last-child) {
+    border-bottom: 2px solid #000;
+}
+
+/* title */
+.project-info h3 {
+    color: var(--color2);
+}
+
+/* about */
+.project-info p {
+    font-weight: 600;
+}
+
+/* links */
+.project-info .p-btn,
+.project-info span {
+    display: inline-block;
+    margin: 1rem 1rem 1rem 0;
+    padding: 0.5rem 1rem;
+    background-color: var(--color);
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.project-info img:hover,
+.project-info a:hover {
+    transition: all 0.3s linear;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transform: scale(1.1);
+}
+
+.project-info a:active {
+    transform: scale(1);
+}
+
+/* tags */
+.project-info span {
+    text-transform: uppercase;
+    background-color: var(--color2);
+}
