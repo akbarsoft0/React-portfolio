@@ -1,11 +1,11 @@
 .s-container {
     display: flex;
+    justify-content: space-between;
     margin-bottom: 2rem;
 }
 
 .s-div {
-    width: 50px;
-    margin-right: auto;
+    width: 60px;
 }
 
 .s-div img {
