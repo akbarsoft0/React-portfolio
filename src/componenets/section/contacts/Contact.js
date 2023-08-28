@@ -21,7 +21,16 @@ const Contact = () => {
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <form name="subscribe" method="POST" data-netlify="true">
+
+
+                            <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+                                {/* You still need to add the hidden input with the form name to your JSX form */}
+                                <input type="hidden" name="form-name" value="contact" />
+                                ...
+                                {/* </form> */}
+
+
+                                {/* <form name="subscribe" method="POST" data-netlify="true"> */}
                                 <input type="text" name="name" placeholder="enter your full name" />
                                 <input type="number" name="phone" placeholder="enter your phone number" />
                                 <input type="email" name="email" id="email" placeholder="enter your mail id" />
