@@ -7,8 +7,8 @@ const ProjectsCard = ({ Project }) => {
                 <div className="row align-items-center">
                     <div className="col-lg-7">
                         <h3>{Project.title}</h3>
-                        {Project.link && <a className='myBtn' href={Project.link} target="_blank"><i className="fi fi-rs-globe"></i> demo</a>}
-                        {Project.github && <a className='myBtn' href={Project.github} target="_blank"><i className="fi fi-brands-github"></i> github</a>}
+                        {Project.link && <a className='myBtn' href={Project.link} target="_blank" rel="noopener noreferrer" ><i className="fi fi-rs-globe"></i> demo</a>}
+                        {Project.github && <a className='myBtn' href={Project.github} target="_blank" rel="noopener noreferrer"><i className="fi fi-brands-github"></i> github</a>}
                         <p>{Project.about}</p>
                         {Project.tags.map((tag, index) => {
                             return <span className='tag' key={index}>{tag}</span>
