@@ -1,6 +1,6 @@
 # React-portfolio
 
-[url]-(https://akbar63.netlify.app/)
+url - https://akbar63.netlify.app/
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
