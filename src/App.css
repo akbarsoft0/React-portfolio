@@ -8,7 +8,7 @@
 
 body {
   color: #94A9C9;
-  background-color: #0F172A;
+  background-color: rgb(15, 23, 42);
   font-family: "Noto Sans", sans-serif;
   font-size: 14px;
   line-height: 18px;
@@ -36,6 +36,7 @@ img {
 .page-title {
   text-transform: uppercase;
   font-weight: 600;
+  margin-bottom: 2rem;
 }
 
 .myBtn {

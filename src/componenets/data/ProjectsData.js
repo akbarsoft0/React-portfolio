@@ -13,10 +13,9 @@ export const ProjectsData = [
 
         link: 'https://mohammad-akbar.netlify.app/',
 
-        github: 'xczxcvvcxz',
+        github: 'https://github.com/mohammad-akbar63/portfolio',
 
         image: require('../assets/project-img/protfolio.png')
-        // image: "https://mohammad-akbar.netlify.app/img/nixon.png"
 
     },
     {
@@ -32,11 +31,9 @@ export const ProjectsData = [
 
         link: 'https://nixoninfo.netlify.app/',
 
-        github: 'xczxcvvcxz',
+        github: 'https://github.com/mohammad-akbar63/nixon',
 
         image: require('../assets/project-img/nixon.png')
-        // image: "https://mohammad-akbar.netlify.app/img/nixon.png"
-
     },
     {
         id: 3,
@@ -50,11 +47,9 @@ export const ProjectsData = [
 
         link: 'https://darked.netlify.app/',
 
-        github: 'xczxcvvcxz',
+        github: 'https://github.com/mohammad-akbar63/darked',
 
         image: require('../assets/project-img/darked.png')
-        // image: "https://mohammad-akbar.netlify.app/img/dark.jpg"
-
     },
     {
         id: 4,
@@ -65,10 +60,66 @@ export const ProjectsData = [
 
         tags: ['html', 'css', 'javascript', 'bootstrap'],
 
-        github: 'xczxcvvcxz',
-
         image: require('../assets/project-img/tea.png')
-        // image: "https://mohammad-akbar.netlify.app/img/tea.jpg"
+    },
+    {
+        id: 5,
+        title: "weather app",
 
+        about: `Welcome to our Weather App! We're passionate about keeping you informed about the ever-changing weather conditions in your area and beyond.
+                Whether you're planning a weekend getaway, a morning jog, or just want to know if you'll need an umbrella, our app has you covered..`,
+
+        tags: ['react', 'api', 'css', 'javascript', 'bootstrap'],
+
+        link: 'https://ma-weatherapp.netlify.app/',
+
+        github: "https://github.com/mohammad-akbar63/weather-app",
+
+        image: require('../assets/project-img/weather.png')
+    },
+    {
+        id: 6,
+        title: "food app",
+
+        about: `Welcome to the React section of our Food Cart App! In this section, we'll dive into the core features and components that make our app
+             a delightful and efficient platform for ordering delicious food from your favorite local food carts.`,
+
+        tags: ['react', "react-router", "redux", 'api', 'css', 'javascript', 'bootstrap'],
+
+        link: 'https://ma-food.netlify.app/',
+
+        github: "https://github.com/mohammad-akbar63/product-manger",
+
+        image: require('../assets/project-img/product.png')
+    },
+    {
+        id: 7,
+        title: "form builder",
+
+        about: `Welcome to the jQuery Form Builder section! In this segment, we'll explore the features and functionality of our form builder tool built using jQuery,
+             a powerful and versatile JavaScript library. Our jQuery Form Builder empowers you to create customized forms effortlessly and efficiently.`,
+
+        tags: ['html', 'css', 'javascript', 'bootstrap', 'jQuery'],
+
+        link: 'https://ma-formbuilder.netlify.app/',
+
+        github: "https://github.com/mohammad-akbar63/form-builder",
+
+        image: require('../assets/project-img/formbuilder.png')
+    },
+    {
+        id: 8,
+        title: "Guess My Number!",
+
+        about: `Welcome to the "Guess My Number!" game section, where we'll explore the JavaScript-powered game that challenges players to guess a secret number. 
+              This classic game showcases the power and versatility of JavaScript for creating interactive and enjoyable web applications.`,
+
+        tags: ['html', 'css', 'javascript', 'bootstrap', 'jQuery'],
+
+        link: 'https://ma-guess.netlify.app/',
+
+        github: "https://github.com/mohammad-akbar63/Guess-the-number",
+
+        image: require('../assets/project-img/game.png')
     }
 ]

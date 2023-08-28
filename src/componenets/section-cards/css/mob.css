@@ -1,0 +1,41 @@
+.x {
+    position: absolute;
+    top: 1.5rem;
+    right: 3.2rem;
+    font-size: 1.5rem;
+
+}
+
+.mobile-menu {
+    background-color: rgba(15, 23, 42, 0.9);
+    box-shadow: 1px 0 10px #fff;
+    list-style-type: none;
+    position: fixed;
+    inset: 0 0 0 auto;
+    height: 100%;
+    z-index: 5;
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mobile-menu li {
+    padding: 1rem 0;
+}
+
+@media only screen and (max-width:992px) {
+
+    .apps,
+    .x {
+        display: block;
+    }
+}
+
+@media only screen and (max-width:500px) {
+
+    .mobile-menu {
+        width: 100%;
+        text-align: center;
+    }
+}

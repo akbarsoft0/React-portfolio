@@ -1,0 +1,35 @@
+.about-text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+span {
+    text-transform: capitalize;
+    font-size: larger;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin: 1rem 0;
+    color: rgb(14, 165, 234);
+}
+
+p {
+    line-height: 1.5rem;
+    word-spacing: 2px;
+    font-size: 1rem;
+    padding: 1rem 0;
+}
+
+.links {
+    margin-top: 4rem;
+}
+
+@media only screen and (max-width:500px) {
+
+    .links {
+        margin-top: 1rem;
+    }
+}

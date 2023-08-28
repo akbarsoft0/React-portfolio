@@ -1,0 +1,13 @@
+.sepretor {
+    width: 20%;
+    height: 8px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    background: var(--btnBg);
+}
+
+@media only screen and (max-width:500px) {
+    .sepretor {
+        width: 50%;
+    }
+}

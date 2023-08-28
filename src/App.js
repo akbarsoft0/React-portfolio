@@ -1,13 +1,16 @@
 import React from 'react'
 import './App.css'
-import Header from './componenets/header/Header'
-import Footer from './componenets/footer/Footer'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import About from './componenets/section/about/About'
-import Projects from './componenets/section/projects/Projects'
-import Skills from './componenets/section/skills/Skills'
-import Work from './componenets/section/work/Work'
-import Contact from './componenets/section/contacts/Contact'
+
+import Header from './componenets/sections/js/Header'
+import Footer from './componenets/sections/js/Footer'
+import About from './componenets/sections/js/About'
+import Projects from './componenets/sections/js/Projects'
+import Skills from './componenets/sections/js/Skills'
+import Work from './componenets/sections/js/Work'
+import Contact from './componenets/sections/js/Contact'
+
+// import { Header, Footer, About, Projects, Skills, Work, Contact } from './componenets/sections/js'
 
 const App = () => {
   return (
