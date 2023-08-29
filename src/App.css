@@ -14,13 +14,14 @@ body {
   line-height: 18px;
   font-style: normal;
   font-weight: 400;
-  position: relative;
+
   min-height: 100vh;
+  position: relative;
 }
 
 section {
-  min-height: 90vh;
   padding: 4rem 1rem;
+
 }
 
 :root {
@@ -35,6 +36,7 @@ img {
 
 .page-title {
   text-transform: uppercase;
+  color: inherit;
   font-weight: 600;
   margin-bottom: 2rem;
 }
@@ -56,4 +58,15 @@ img {
   --x: 100%;
   color: #ffffff !important;
   transition: 0.5s
+}
+
+@media only screen and (max-width:600px) {
+  section {
+    padding: 2rem 0;
+  }
+
+  .myBtn {
+    padding: 0.5rem 1rem;
+    margin: 5px 0;
+  }
 }

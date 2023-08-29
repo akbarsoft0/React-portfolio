@@ -39,3 +39,12 @@ header a:hover,
     display: none;
     font-size: 1.5rem;
 }
+
+@media only screen and (max-width:600px) {
+
+    header a,
+    header h2 {
+        padding: 0;
+        margin: 0;
+    }
+}

@@ -6,3 +6,9 @@
     color: var(--bg1);
     text-transform: uppercase;
 }
+
+@media only screen and (max-width:600px) {
+    .skills-container {
+        padding: 1rem;
+    }
+}

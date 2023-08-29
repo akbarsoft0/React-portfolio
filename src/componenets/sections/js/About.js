@@ -16,9 +16,9 @@ const About = () => {
                                 <span>hello everyone!</span>
                                 <h1>i'm mohammad akbar</h1>
                                 <h5>Front-End Web Developer</h5>
-                                <p>I'm an experienced Front-End Web Developer skilled in HTML, CSS, and JavaScript.
+                                <p>I'm an experienced Front-End Web Developer skilled in HTML, CSS, and JavaScript. <br />
                                     I excel at creating user-friendly, visually appealing websites that drive business results
-                                    through effective collaboration and a deep understanding of design and user preferences
+                                    through effective collaboration and a deep understanding of design and user preferences.
                                 </p>
                             </div>
                         </div>

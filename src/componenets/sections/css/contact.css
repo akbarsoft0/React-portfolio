@@ -1,7 +1,9 @@
-.contact-info .row {
+.contact-info {
     min-height: 60vh;
     padding: 2rem;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .contact-text h4 {
@@ -22,4 +24,18 @@ textarea {
 
 form button {
     float: right;
+}
+
+@media only screen and (max-width:600px) {
+    .contact-info {
+        padding: 0;
+    }
+
+    .contact-text {
+        padding: 1rem;
+    }
+
+    .contact-text h4 {
+        padding: 1rem 0;
+    }
 }

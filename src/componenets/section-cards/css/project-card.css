@@ -7,8 +7,10 @@
 }
 
 /* title */
-.project-info h3 {
-    color: var(--color2);
+h3 {
+    color: var(--bg1);
+    text-transform: uppercase;
+    margin: 1rem 0;
 }
 
 /* about */
@@ -40,13 +42,32 @@
     transform: scale(1);
 }
 
-.project-info h3 {
-    color: var(--bg1);
-    text-transform: uppercase;
-}
-
 /* tags */
 .project-info span {
     text-transform: uppercase;
     background-color: var(--bg2);
+}
+
+@media only screen and (max-width:600px) {
+    .project-info {
+        padding: 1rem;
+        margin: 2rem 0;
+    }
+
+    .project-info .myBtn {
+        margin: 5px;
+        padding: 0.5rem 1rem;
+
+    }
+
+    .project-info p {
+        font-size: small;
+        height: 164px;
+        overflow: auto;
+    }
+
+    .tag {
+        margin: 5px;
+        font-size: small;
+    }
 }

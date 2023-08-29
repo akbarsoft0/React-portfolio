@@ -6,28 +6,13 @@
     border-bottom: 1px solid #000;
 }
 
-.work-img img {
-    width: 60%;
-    display: block;
-    margin-left: auto;
-    /* mix-blend-mode: multiply; */
-}
-
-.work-info h3 {
-    color: var(--bg1);
-}
-
 .work-info h5 {
     color: var(--bg2);
     margin: 1rem 0;
 }
 
-.work-info p {
-    font-weight: 600;
-}
-
 @media only screen and (max-width:920px) {
-    .work-img img {
-        margin: auto;
+    .work-card {
+        padding: 1rem;
     }
 }

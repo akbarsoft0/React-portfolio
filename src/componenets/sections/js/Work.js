@@ -11,7 +11,7 @@ const Work = () => {
         <section id='work'>
             <div className="container">
                 <Sepretor />
-                <h2 className='page-title'>works</h2>
+                <h3 className='page-title'>works</h3>
                 {
                     data.map((item) => {
                         return (

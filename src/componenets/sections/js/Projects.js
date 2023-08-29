@@ -15,8 +15,7 @@ const Projects = () => {
                     <h3 className='page-title'>projects</h3>
                     {data.map((Project) => {
                         return (
-                            <div key={Project.id}
-                            >
+                            <div key={Project.id}>
                                 <ProjectsCard Project={Project} />
                             </div>
                         )
