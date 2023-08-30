@@ -6,19 +6,6 @@ import Social from '../../section-cards/js/Social'
 
 const Contact = () => {
 
-    document.querySelectorAll('.contact').forEach(function (form) {
-        form.addEventListener('submit', (event) => {
-            event.preventDefault()
-            let formData = new FormData(form)
-            fetch('/', {
-                method: 'POST',
-                headers: { "Content-Type": "multipart/form-data" },
-                body: new URLSearchParams(formData).toString()
-            }).then(() => alert("submited")).catch((error) =>
-                alert(error))
-        });
-    });
-
     return (
         <section id='contact'>
             <div className="container">
@@ -36,7 +23,7 @@ const Contact = () => {
                         </div>
                         <div className="col-lg-6">
                             {/* to connect form to netlify */}
-                            <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" className='contact'>
+                            <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" className='contact' action='/'>
                                 {/* You still need to add the hidden input with the form name to your JSX form */}
                                 <input type="hidden" name="form-name" value="contact" />
                                 <input type="text" name="name" id='name' placeholder="enter your full name" />
