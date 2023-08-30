@@ -14,7 +14,7 @@ const Contact = () => {
                 method: 'POST',
                 headers: { "Content-Type": "multipart/form-data" },
                 body: new URLSearchParams(formData).toString()
-            }).then(() => ntlFormSuccess()).catch((error) =>
+            }).then(() => alert("submited")).catch((error) =>
                 alert(error))
         });
     });
