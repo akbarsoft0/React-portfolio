@@ -1,0 +1,72 @@
+@import "~@flaticon/flaticon-uicons/css/all/all";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #94A9C9;
+  background-color: rgb(15, 23, 42);
+  font-family: "Noto Sans", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-style: normal;
+  font-weight: 400;
+
+  min-height: 100vh;
+  position: relative;
+}
+
+section {
+  padding: 4rem 1rem;
+
+}
+
+:root {
+  --bg1: rgb(11, 209, 209);
+  --bg2: rgb(14, 165, 234);
+  --btnBg: linear-gradient(90deg, rgb(14, 165, 234), rgb(11, 209, 209) 51%, rgb(14, 165, 234));
+}
+
+img {
+  width: 100%;
+}
+
+.page-title {
+  text-transform: uppercase;
+  color: inherit;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.myBtn {
+  text-decoration: none;
+  border: none;
+  display: inline-block;
+  margin: 1rem 1rem 1rem 0;
+  padding: 0.6rem 2rem;
+  text-transform: uppercase;
+  border-radius: 6px;
+  background: var(--btnBg) var(--x, 0)/200%;
+  color: #fff;
+
+}
+
+.myBtn:hover {
+  --x: 100%;
+  color: #ffffff !important;
+  transition: 0.5s
+}
+
+@media only screen and (max-width:600px) {
+  section {
+    padding: 2rem 0;
+  }
+
+  .myBtn {
+    padding: 0.5rem 1rem;
+    margin: 5px 0;
+  }
+}

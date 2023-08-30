@@ -1,0 +1,73 @@
+.project-info {
+    padding: 4rem 1rem;
+}
+
+.project-info:not(:last-child) {
+    border-bottom: 2px solid #000;
+}
+
+/* title */
+h3 {
+    color: var(--bg1);
+    text-transform: uppercase;
+    margin: 1rem 0;
+}
+
+/* about */
+.project-info p {
+    text-transform: capitalize;
+    font-size: medium;
+}
+
+/* links */
+.tag {
+    display: inline-block;
+    margin: 1rem 1rem 1rem 0;
+    padding: 0.5rem 1rem;
+    background: var(--bg1) !important;
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.project-info img:hover,
+.project-info a:hover {
+    transition: all 0.3s linear;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transform: scale(1.1);
+}
+
+.project-info a:active {
+    transform: scale(1);
+}
+
+/* tags */
+.project-info span {
+    text-transform: uppercase;
+    background-color: var(--bg2);
+}
+
+@media only screen and (max-width:600px) {
+    .project-info {
+        padding: 1rem;
+        margin: 2rem 0;
+    }
+
+    .project-info .myBtn {
+        margin: 5px;
+        padding: 0.5rem 1rem;
+
+    }
+
+    .project-info p {
+        font-size: small;
+        height: 164px;
+        overflow: auto;
+    }
+
+    .tag {
+        margin: 5px;
+        font-size: small;
+    }
+}

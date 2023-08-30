@@ -1,0 +1,41 @@
+.contact-info {
+    min-height: 60vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contact-text h4 {
+    padding: 2rem 0;
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+
+form input,
+textarea {
+    width: 100%;
+    display: block;
+    padding: 1rem;
+    margin-bottom: 5px;
+    border-radius: 6px;
+    text-transform: capitalize;
+}
+
+form button {
+    float: right;
+}
+
+@media only screen and (max-width:600px) {
+    .contact-info {
+        padding: 0;
+    }
+
+    .contact-text {
+        padding: 1rem;
+    }
+
+    .contact-text h4 {
+        padding: 1rem 0;
+    }
+}

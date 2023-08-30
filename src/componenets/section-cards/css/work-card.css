@@ -1,0 +1,18 @@
+.work-card {
+    padding: 4rem 1rem;
+}
+
+.work-card:not(:last-child) {
+    border-bottom: 1px solid #000;
+}
+
+.work-info h5 {
+    color: var(--bg2);
+    margin: 1rem 0;
+}
+
+@media only screen and (max-width:920px) {
+    .work-card {
+        padding: 1rem;
+    }
+}
