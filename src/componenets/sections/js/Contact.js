@@ -2,16 +2,22 @@ import React from 'react'
 import "../css/contact.css"
 import Sepretor from '../../section-cards/js/Sepretor'
 import Social from '../../section-cards/js/Social'
-import { useNavigate } from 'react-router-dom'
 
 
 const Contact = () => {
-    let login = useNavigate()
 
-    function handleSubmit(e) {
-        e.preventDefault();
-        alert('you have submited form')
-    }
+    document.querySelectorAll('.ntlForm').forEach(function (form) {
+        form.addEventListener('submit', (event) => {
+            event.preventDefault()
+            let formData = new FormData(form)
+            fetch('/', {
+                method: 'POST',
+                headers: { "Content-Type": "multipart/form-data" },
+                body: new URLSearchParams(formData).toString()
+            }).then(() => ntlFormSuccess()).catch((error) =>
+                alert(error))
+        });
+    });
 
     return (
         <section id='contact'>
