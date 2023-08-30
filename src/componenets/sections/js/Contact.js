@@ -2,9 +2,17 @@ import React from 'react'
 import "../css/contact.css"
 import Sepretor from '../../section-cards/js/Sepretor'
 import Social from '../../section-cards/js/Social'
+import { useNavigate } from 'react-router-dom'
 
 
 const Contact = () => {
+    let login = useNavigate()
+
+    function handleSubmit(e) {
+        e.preventDefault();
+        alert('you have submited form')
+    }
+
     return (
         <section id='contact'>
             <div className="container">
@@ -22,7 +30,7 @@ const Contact = () => {
                         </div>
                         <div className="col-lg-6">
                             {/* to connect form to netlify */}
-                            <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+                            <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" onSubmit={handleSubmit}>
                                 {/* You still need to add the hidden input with the form name to your JSX form */}
                                 <input type="hidden" name="form-name" value="contact" />
                                 <input type="text" name="name" id='name' placeholder="enter your full name" />
