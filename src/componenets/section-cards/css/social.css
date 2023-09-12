@@ -25,4 +25,9 @@
     .s-div {
         width: 30px;
     }
+
+    .s-div span {
+        display: none;
+    }
+
 }

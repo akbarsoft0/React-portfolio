@@ -18,7 +18,9 @@ const ProjectsCard = ({ Project }) => {
                     </div>
                     <div className='col-lg-5 order-lg-2 order-1'>
                         <a href={Project.link} target="_blank" rel="noopener noreferrer">
-                            <img className='img-fluid img-thumbnail ' src={Project.image} alt="project" /></a>
+                            <img className='img-fluid img-thumbnail '
+                                src={Project.image}
+                                alt="project" /></a>
                     </div>
                 </div>
             </div>

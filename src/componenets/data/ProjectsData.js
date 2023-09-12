@@ -71,6 +71,22 @@ export const ProjectsData = [
     },
     {
         id: 5,
+        title: "coded",
+
+        about: `Eductopsis a cutting-edge education web application built using the power of React, designed to
+                revolutionize the way we learn and teach. Whether you're a student, educator, or lifelong learner, EduLearn
+                offers a dynamic and engaging platform to enhance your educational journey.`,
+
+        tags: ['react', 'javascript', 'css', 'bootstrap', 'json', 'mui'],
+
+        link: 'https://coded.netlify.app/',
+
+        github: "https://github.com/mohammad-akbar63/coded",
+
+        image: require('../assets/project-img/coded.png'),
+    },
+    {
+        id: 6,
         title: "weather app",
 
         about: `Welcome to our Weather App! We're passionate about keeping you informed about the ever-changing weather conditions in your area and beyond.
@@ -82,12 +98,12 @@ export const ProjectsData = [
 
         github: "https://github.com/mohammad-akbar63/weather-app",
 
-        // image: require('../assets/project-img/weather.png'),
+        image: require('../assets/project-img/weather.png'),
 
-        image: "https://i.postimg.cc/Df8R97wW/weather.png"
+        // image: "https://i.postimg.cc/Df8R97wW/weather.png"
     },
     {
-        id: 6,
+        id: 7,
         title: "food app",
 
         about: `Welcome to the React section of our Food Cart App! In this section, we'll dive into the core features and components that make our app
@@ -104,7 +120,7 @@ export const ProjectsData = [
         image: "https://i.postimg.cc/8cJdtKD5/product.png"
     },
     {
-        id: 7,
+        id: 8,
         title: "form builder",
 
         about: `Welcome to the jQuery Form Builder section! In this segment, we'll explore the features and functionality of our form builder tool built using jQuery,
@@ -116,12 +132,12 @@ export const ProjectsData = [
 
         github: "https://github.com/mohammad-akbar63/form-builder",
 
-        // image: require('../assets/project-img/formbuilder.png')
+        image: require('../assets/project-img/formbuilder.png')
 
-        image: "https://i.postimg.cc/BbrTyTQC/formbuilder.png"
+        // image: "https://i.postimg.cc/BbrTyTQC/formbuilder.png"
     },
     {
-        id: 8,
+        id: 9,
         title: "Guess My Number!",
 
         about: `Welcome to the "Guess My Number!" game section, where we'll explore the JavaScript-powered game that challenges players to guess a secret number. 
