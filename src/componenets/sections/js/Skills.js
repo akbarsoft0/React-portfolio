@@ -1,7 +1,7 @@
 import React from 'react'
 import '../css/skills.css'
 import Sepretor from '../../section-cards/js/Sepretor'
-import { SkillsData } from '../../data/SkillsData'
+import { SkillsData } from '../../../data/SkillsData'
 import SkillCard from "../../section-cards/js/SkillCard";
 
 

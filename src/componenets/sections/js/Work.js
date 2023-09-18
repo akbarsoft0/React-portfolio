@@ -1,7 +1,7 @@
 import React from 'react'
 import '../css/work.css'
 import Sepretor from '../../section-cards/js/Sepretor'
-import { WorkData } from '../../data/WorkData'
+import { WorkData } from '../../../data/WorkData'
 import WorkCard from '../../section-cards/js/WorkCard'
 
 

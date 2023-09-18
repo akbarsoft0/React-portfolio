@@ -1,6 +1,6 @@
 import React from 'react'
 import '../css/Projects.css'
-import { ProjectsData } from '../../data/ProjectsData'
+import { ProjectsData } from '../../../data/ProjectsData'
 import ProjectsCard from '../../section-cards/js/ProjectsCard'
 import Sepretor from '../../section-cards/js/Sepretor'
 import Social from '../../section-cards/js/Social'

@@ -23,7 +23,7 @@ const About = () => {
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <img className='img-fluid right' src={require('../../assets/about-img/about.png')} alt="img" />
+                            <img className='img-fluid right' src={require('../../../assets/about-img/about.webp')} alt="img" />
                         </div>
                     </div>
                     <div className="links">
