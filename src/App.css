@@ -25,7 +25,6 @@ section {
 }
 
 ::-webkit-scrollbar {
-  width: 0.6rem;
   background-color: #134E5E;
 }
 
