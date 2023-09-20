@@ -24,6 +24,17 @@ section {
 
 }
 
+::-webkit-scrollbar {
+  width: 0.6rem;
+  background-color: #134E5E;
+}
+
+::-webkit-scrollbar-thumb {
+  background-clip: content-box;
+  background-color: #10d3cc;
+  border-radius: 6px;
+}
+
 :root {
   --bg1: rgb(11, 209, 209);
   --bg2: rgb(14, 165, 234);
