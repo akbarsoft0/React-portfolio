@@ -7,6 +7,7 @@ import Social from '../../section-cards/js/Social'
 
 const Projects = () => {
     const data = ProjectsData
+    // AOS.init();
     return (
         <>
             <section id='projects'>
@@ -15,8 +16,9 @@ const Projects = () => {
                     <h3 className='page-title'>projects</h3>
                     {data.map((Project) => {
                         return (
-                            <> <div data-aos="fade-up"
-                                data-aos-anchor-placement="center-bottom"
+                            // <> <div data-aos="fade-up"
+                            //     data-aos-anchor-placement="center-bottom"
+                            <><div
                                 key={Project.id} >
                                 <ProjectsCard Project={Project} />
                             </div>
