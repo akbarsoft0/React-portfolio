@@ -15,10 +15,13 @@ const Projects = () => {
                     <h3 className='page-title'>projects</h3>
                     {data.map((Project) => {
                         return (
-                            <div key={Project.id}>
+                            <> <div data-aos="fade-up"
+                                data-aos-anchor-placement="center-bottom"
+                                key={Project.id} >
                                 <ProjectsCard Project={Project} />
                             </div>
-                        )
+
+                            </>)
                     })}
                     <p className='note'>I'm interested in collaborating on JavaScript projects using CodePen and Github. You can find my work on these platforms:</p>
                     <Social />

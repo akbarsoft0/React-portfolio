@@ -15,7 +15,7 @@ const Contact = () => {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="contact-text">
-                                <a className='myBtn' href={require('../../../assets/resume/Akbar-resume.pdf')} download={'Akbar resume'}>
+                                <a className='myBtn' href={require('../../../assets/resume/Akbar resume.pdf')} download={'Akbar resume'}>
                                     <i className="fi fi-ss-down-to-line"></i> download my resume</a>
                                 <h4>want to get in touch? <br /> contact me on any platform</h4>
                                 <Social />
